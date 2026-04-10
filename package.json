@@ -1,0 +1,13 @@
+{
+  "name": "typescript-patterns",
+  "version": "1.0.0",
+  "description": "5 patrones de TypeScript que eliminan bugs antes de ejecutar el código — companion repo del post en juanchi.dev",
+  "private": true,
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
