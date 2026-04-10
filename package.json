@@ -1,13 +1,16 @@
 {
   "name": "typescript-patterns",
-  "version": "1.0.0",
-  "description": "5 patrones de TypeScript que eliminan bugs antes de ejecutar el código — companion repo del post en juanchi.dev",
+  "version": "2.0.0",
+  "description": "9 patrones del sistema de tipos de TypeScript con ejemplos reales, runner interactivo y links al Playground",
   "private": true,
+  "type": "module",
   "scripts": {
+    "run": "npx tsx src/run.ts",
     "typecheck": "tsc --noEmit",
     "build": "tsc"
   },
   "devDependencies": {
+    "tsx": "^4.19.2",
     "typescript": "^5.7.0"
   }
 }
